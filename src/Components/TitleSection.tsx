@@ -29,7 +29,7 @@ const TitleSection = () => {
       }}
       className={styles.container}
     >
-    <img src="./src/assets/ADakar1.jpg" alt="Audi Dakar" style={{position: 'absolute', width: '100vw', height: '100vh', objectFit: 'cover' }} />
+    <img src="./assets/ADakar1.jpg" alt="Audi Dakar" style={{position: 'absolute', width: '100vw', height: '100vh', objectFit: 'cover' }} />
       <div ref={plane} className={styles.body}>
        
         <Text3d primary={"Dakar"} secondary={"Dakar"} />

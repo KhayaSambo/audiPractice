@@ -6,18 +6,18 @@ import Lenis from '@studio-freight/lenis'
 import { useTransform, useScroll, motion, MotionValue } from 'framer-motion';
 
 const images = [
-  "../src/assets/DakarAlbum/A236409_large.jpg",
-  "../src/assets/DakarAlbum/A236410_large.jpg",
-  "../src/assets/DakarAlbum/A236411_large.jpg",
-  "../src/assets/DakarAlbum/A236412_large.jpg",
-  "../src/assets/DakarAlbum/A236414_large.jpg",
-  "../src/assets/DakarAlbum/A236413_large.jpg",
-  "../src/assets/DakarAlbum/A236415_large.jpg",
-  "../src/assets/DakarAlbum/A236416_large.jpg",
-  "../src/assets/DakarAlbum/A236417_large.jpg",
-  "../src/assets/DakarAlbum/A236418_large.jpg",
-  "../src/assets/DakarAlbum/A236419_large.jpg",
-  "../src/assets/DakarAlbum/A236420_large.jpg",
+  "./assets/DakarAlbum/A236409_large.jpg",
+  "./assets/DakarAlbum/A236410_large.jpg",
+  "./assets/DakarAlbum/A236411_large.jpg",
+  "./assets/DakarAlbum/A236412_large.jpg",
+  "./assets/DakarAlbum/A236414_large.jpg",
+  "./assets/DakarAlbum/A236413_large.jpg",
+  "./assets/DakarAlbum/A236415_large.jpg",
+  "./assets/DakarAlbum/A236416_large.jpg",
+  "./assets/DakarAlbum/A236417_large.jpg",
+  "./assets/DakarAlbum/A236418_large.jpg",
+  "./assets/DakarAlbum/A236419_large.jpg",
+  "./assets/DakarAlbum/A236420_large.jpg",
 ]
 
 export default function ParallaxSection() {

@@ -27,11 +27,9 @@ export default function RallyDetails() {
       )
     }
 
-    interface ComponentProps {
-        phrases: string[];
-      }
+ 
 
-    export function MaskText({ phrases }: ComponentProps) {
+    export function MaskText({ phrases }: {phrases: string[]}) {
     
       const animation = {
         initial: {y: "100%"},
