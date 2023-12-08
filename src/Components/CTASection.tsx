@@ -2,7 +2,7 @@
 
 const CTASection = () => {
     return (
-        <div style={{display:"block", margin: '20px', fontFamily: 'AudiType', }}>
+        <div style={{display:"block", margin: '20px', fontFamily: 'AudiType' }}>
            <body>
     <h2>I hope you like it!</h2>
     <p style={{fontSize:'1.5em'}}>This website was designed by me using react and typescript and is not only responsive, but it also supports dark and light mode (go ahead and try it out!). I also made use of Audi's Media Center images and typography to make things cohesive. I also took extra care to read through their guidelines. </p>
