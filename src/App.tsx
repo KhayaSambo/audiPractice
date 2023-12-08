@@ -1,10 +1,11 @@
 import { useState } from 'react'
 
-import Hero from './Components/Hero'
+import Hero from './Components/HeroSection'
 
 import './App.css'
 import TitleSection from './Components/TitleSection'
 import RallyDetails from './Components/RallyDetails'
+import CTASection from './Components/CTASection'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <TitleSection />
       <RallyDetails />
+      <CTASection />
     </>
   )
 }
