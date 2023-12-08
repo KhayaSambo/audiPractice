@@ -42,7 +42,7 @@ const Header = () => {
           <div ref={container} className='containerStyle'>
             <div ref={stickyMask} className='sticky'>
             <video autoPlay muted loop>
-            <source src="./src/assets/video.mp4" type="video/mp4"/>
+            <source src="./assets/video.mp4" type="video/mp4"/>
           </video>
             </div>
           </div>
